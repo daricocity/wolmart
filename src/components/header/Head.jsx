@@ -29,7 +29,7 @@ const Head = () => {
                     <div className='right RText'>
                         {user ? (
                             <>
-                                <label><Link to='https://wolmartmall-dashboard.netlify.app/'>My Account</Link></label>
+                                <label><Link to='/https://wolmartmall-dashboard.netlify.app/'>My Account</Link></label>
                                 <label><Link to='#' onClick={handleLogout}>Logout</Link></label>
                             </>
                         ) : (
