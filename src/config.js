@@ -3,7 +3,8 @@ const config = {
     defaultPath: '/',
     borderRadius: 12,
     fontFamily: `'Poppins', sans-serif`,
-    proxy: 'https://wolmart-api.herokuapp.com/api',
+    proxy: 'https://wolmart-api.netlify.app',
+    // proxy: 'https://wolmart-api.herokuapp.com/api',
 };
 
 export default config;
